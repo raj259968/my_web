@@ -1,0 +1,108 @@
+
+        body, html {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+            font-family: Arial, sans-serif;
+        }
+
+        .background {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: url('https://images.unsplash.com/photo-1579546929518-9e396f3cc809') no-repeat center center;
+            background-size: cover;
+            filter: blur(8px);
+            z-index: -1;
+        }
+
+        .popup-overlay {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5);
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .llogin-form {
+            background: #1f2756;
+            padding: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            width: 500px;
+            height: 200px;
+            position: relative;
+        }
+
+        .cclose-btn {
+            position: absolute;
+            top: 7px;
+            right: 10px;
+            font-size: 20px;
+            cursor: pointer;
+            color: #fff;
+        }
+
+        /* .login-form input {
+            width: 100%;
+            margin: 10px 0;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        } */
+
+        /* .login-form button {
+            width: 100%;
+            padding: 10px;
+            background-color: #007bff;
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        } */
+
+        .iicon-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}       
+
+.iicon {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 10px;
+    background-color: #f0f0f0; /* Placeholder background color */
+}
+
+.mail-icon {
+    background-image: url('path/to/mail-icon.png'); /* Replace with actual path to mail icon */
+    background-size: cover;
+}
+
+.company-logo {
+    background-image: url('./logo/logo.png'); /* Replace with actual path to company logo */
+    background-size: cover;
+}
+
+.company-logo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.call-button {
+    background-image: url('path/to/call-icon.png'); /* Replace with actual path to call icon */
+    background-size: cover;
+}
